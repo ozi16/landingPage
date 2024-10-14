@@ -1,0 +1,98 @@
+:root {
+    --red: #ed017f;
+    --pink: #fce0ef33;
+}
+/* * {
+    border: 1px solid black;
+} */
+body {
+    background-color: whitesmoke;
+}
+/* .wrapper .navigation .navbar {
+    margin-left: 200px;
+} */
+.hero .hero-text {
+    margin-top: 200px;
+}
+.hero .contact {
+    margin-top: 200px;
+}
+.hero .contact a {
+    color: black;
+}
+form .btn {
+    background-color: var(--red);
+    color: white;
+}
+.navbar #navbarSupportedContent .nav-link {
+    min-width: 120px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.navbar #navbarSupportedContent a:hover {
+    background-color: #ed017f;
+    color: white;
+    border-radius: 10px;
+}
+section .hero-section {
+    margin-left: 75px;
+}
+section .hero-section img {
+    height: 700px;
+}
+.experience .experience-point {
+    margin-right: 58px;
+}
+.experience .statement,
+.our-best .statement {
+    margin-left: 150px;
+}
+.experience .experience-point,
+.experience .experience-point1 {
+    max-width: 280px;
+    padding: 15px 25px;
+}
+.partners,
+.our-service,
+.newsletter {
+    background-color: var(--pink);
+}
+.wrapper .partners .partners-point {
+    padding: 100px;
+}
+.wrapper .partners .partners-point img {
+    max-width: 200px;
+}
+.ipdc {
+    height: 585px;
+}
+.ipdc .row {
+    height: 585px;
+}
+.ipdc .row .col-sm-5,
+.col-sm-7 {
+    height: 585px;
+}
+.ipdc .row .col-sm-5 img {
+    min-height: 585px;
+}
+.our-best .best-point {
+    max-width: 175px;
+}
+.our-service .container .row img {
+    max-height: 300px;
+}
+/* .newsletter .news-contain {
+    max-width: 500px;
+} */
+.circle a {
+    color: whitesmoke;
+    background-color: var(--red);
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+.ipdc .row a {
+    color: var(--red);
+}
